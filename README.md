@@ -50,6 +50,6 @@ First There are 2 boards one is the player board and one is the answer board.
    
 5) When revealing a cell on player board that is 0 on the answer board recursively open the rest of the surrounding cells and update the player board.
    
-6) Use a visited set to keep track of all the visited cells
+6) Use a visited set to keep track of all the visited cells, this is to prevent visiting an already visited cell
    
 7) When visited all available cells end the game, or when located and opened a cell with a mine immediately end the game
