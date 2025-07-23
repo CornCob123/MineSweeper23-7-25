@@ -47,9 +47,9 @@ APPROACH
 First There are 2 boards one is the player board and one is the answer board.
 
 
-1.Initialise the player board to all "-" (This is the board used for the player)
+1. Initialise the player board to all "-" (This is the board used for the player)
 
-2.Intialise the answer board by randomly placing mines according to input
+2. Intialise the answer board by randomly placing mines according to input
 
 3. Compute the hints for each cell not occupied by a mine . This is a number to determine how many mines are in its adjacent cell and update    the answer board. (This is the board used to refer to for the mine locations)
    
