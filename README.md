@@ -43,18 +43,20 @@ Decision to use Lombok for the extra annotation features
 
 APPROACH
 
+
 First There are 2 boards one is the player board and one is the answer board.
 
-1)Initialise the player board to all "-" (This is the board used for the player)
 
-2)Intialise the answer board by randomly placing mines according to input
+1.Initialise the player board to all "-" (This is the board used for the player)
 
-3) Compute the hints for each cell not occupied by a mine . This is a number to determine how many mines are in its adjacent cell and update the answer board. (This is the board used to refer to for the mine locations)
+2.Intialise the answer board by randomly placing mines according to input
+
+3. Compute the hints for each cell not occupied by a mine . This is a number to determine how many mines are in its adjacent cell and update    the answer board. (This is the board used to refer to for the mine locations)
    
-4) Start the game and get input from user
+4. Start the game and get input from user
    
-5) When revealing a cell on player board that is 0 on the answer board recursively open the rest of the surrounding cells and update the player board.
+5. When revealing a cell on player board that is 0 on the answer board recursively open the rest of the surrounding cells and update the player board.
    
-6) Use a visited set to keep track of all the visited cells, this is to prevent visiting an already visited cell
+6. Use a visited set to keep track of all the visited cells, this is to prevent visiting an already visited cell
    
-7) When visited all available cells end the game, or when located and opened a cell with a mine immediately end the game
+7. When visited all available cells end the game, or when located and opened a cell with a mine immediately end the game
