@@ -14,11 +14,11 @@ Decision to use Lombok for the extra annotation features
 <img width="940" height="513" alt="image" src="https://github.com/user-attachments/assets/8116d3a5-be2d-4122-a725-36c43ad98d82" />
 
 2.	If using other java versions example 1.8 please change pom.xml <Java.version></Java.version> below to the specific java version
-3.	
+   
  <img width="940" height="507" alt="image" src="https://github.com/user-attachments/assets/40969d22-6eaf-46f4-860a-da5dbda1386f" />
 
-4.	important to download lombok plugin from marketplace. Steps below in screenshot provided  
-5.	enable Lombok annotation processing in intellij
+3.	important to download lombok plugin from marketplace. Steps below in screenshot provided  
+4.	enable Lombok annotation processing in intellij
    
  <img width="940" height="505" alt="image" src="https://github.com/user-attachments/assets/c3a9df4b-11e8-4be0-aa02-68776660eff9" />
 <img width="940" height="522" alt="image" src="https://github.com/user-attachments/assets/0b4f4af2-da6c-4e2d-a4cb-cdbed7ea3c35" />
@@ -26,14 +26,14 @@ Decision to use Lombok for the extra annotation features
 
  
  
-6.	After downloading lombok plugin and setup is done, Restart Intellij, Clear cache if needed and reload maven project(circle Icon highlighted in screenshot).  After restarting run "mvn clean install" in terminal
+5.	After downloading lombok plugin and setup is done, Restart Intellij, Clear cache if needed and reload maven project(circle Icon highlighted in screenshot).  After restarting run "mvn clean install" in terminal
    
  <img width="940" height="528" alt="image" src="https://github.com/user-attachments/assets/c18bfcbe-99ba-45df-949a-4aa42bd62420" />
 <img width="940" height="471" alt="image" src="https://github.com/user-attachments/assets/626be522-27d4-4b13-af41-379031b1a4c7" />
 
  
-7.	Right click run as file MineGameTest to run the Junit test cases
-8.	Right click run as file MineSweeper to run program
+6.	Right click run as file MineGameTest to run the Junit test cases
+7.	Right click run as file MineSweeper to run program
    
  <img width="940" height="515" alt="image" src="https://github.com/user-attachments/assets/0e86cd52-6f90-41ba-ba3f-379d573d6e58" />
 <img width="940" height="522" alt="image" src="https://github.com/user-attachments/assets/7f6cf0b6-b2fb-4584-87f3-3403fa1b2f3b" />
